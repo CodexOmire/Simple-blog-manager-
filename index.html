@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ezekiel's Blog Manager</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <h1>📝 Ezekiel's Blog</h1>
+
+  <div id="post-list"></div>
+
+  <div id="post-detail">
+    <p>Select a post to view details.</p>
+  </div>
+
+  <form id="new-post-form">
+    <h3>Add New Post</h3>
+    <input name="title" placeholder="Title" required />
+    <input name="author" placeholder="Author" required />
+    <textarea name="content" placeholder="Content..." required></textarea>
+    <button type="submit">Add Post</button>
+  </form>
+
+  <!-- Edit Form (Initially Hidden) -->
+  <form id="edit-post-form" class="hidden">
+    <h3>Edit Post</h3>
+    <input type="text" id="edit-title" required />
+    <textarea id="edit-content" required></textarea>
+    <button type="submit">Update Post</button>
+    <button type="button" id="cancel-edit">Cancel</button>
+  </form>
+
+  <script src="src/index.js"></script>
+</body>
+</html>

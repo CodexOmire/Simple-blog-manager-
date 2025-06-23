@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+#post-list div {
+  padding: 8px;
+  margin: 5px 0;
+  background-color: #e0f7fa;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#post-detail {
+  background-color: #fffde7;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+form {
+  margin-top: 20px;
+  background-color: #e8f5e9;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+form input,
+form textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 8px;
+}
